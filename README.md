@@ -85,3 +85,4 @@ See `docs/FAM_file_sex_ID_update.md` for detailed implementation of the solution
 
 ## License
 
+This project is licensed under the MIT License. You are free to use, modify, and distribute this software. See the [LICENSE](LICENSE) file for full details.
