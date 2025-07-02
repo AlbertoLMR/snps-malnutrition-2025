@@ -1,6 +1,6 @@
 # Linkage Disequilibrium analysis for SNPs
 
-This repository provides tools for conducting Linkage Disequilibrium (LD) analysis on human SNP arrays using R and PLINK, with utilities for correcting common `.fam` file issues
+This repository provides tools for conducting Linkage Disequilibrium (LD) analysis on human SNP arrays using R and PLINK, with utilities for correcting common `.fam` file issues.
 
 ## Overview
 
