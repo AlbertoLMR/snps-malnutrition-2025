@@ -1,0 +1,193 @@
+# ============================================================================
+# GENETICS DATA FILES - NEVER COMMIT THESE
+# ============================================================================
+
+# PLINK binary files (contain sensitive genetic data)
+*.bed
+*.bim
+*.fam
+*.map
+*.ped
+
+# PLINK output files
+*.log
+*.nosex
+*.prune.in
+*.prune.out
+*.ld
+*.hh
+*.imiss
+*.lmiss
+*.frq
+*.hardy
+*.assoc
+*.qassoc
+*.linear
+*.logistic
+
+# Raw genetic data formats
+*.vcf
+*.vcf.gz
+*.bcf
+*.gen
+*.bgen
+*.dose
+*.dosage
+*.haps
+*.legend
+*.sample
+
+# Sample information files (may contain sensitive data)
+*phenotype*
+*covariate*
+*population*
+*ancestry*
+sex_sheet*.csv
+*reference*.csv
+keep_*.txt
+remove_*.txt
+update_*.txt
+extract_*.txt
+exclude_*.txt
+
+# ============================================================================
+# R FILES
+# ============================================================================
+
+# R data files
+*.RData
+*.Rdata
+*.rda
+*.rds
+
+# R history and workspace
+.Rhistory
+.RDataTmp
+.Rproj.user/
+
+# R session data
+.rsession
+
+# Temporary R files
+*_cache/
+*_files/
+
+# Packrat/renv
+packrat/lib*/
+packrat/src/
+renv/library/
+
+# ============================================================================
+# RESULTS AND OUTPUT FILES
+# ============================================================================
+
+# Results directories (but keep structure)
+results/
+output/
+LD_results/
+plots/
+figures/
+tables/
+reports/
+
+# But allow README files in results directories
+!results/README.md
+!output/README.md
+!LD_results/README.md
+!plots/README.md
+!figures/README.md
+!tables/README.md
+
+# Compressed results
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ============================================================================
+# SYSTEM AND EDITOR FILES
+# ============================================================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.directory
+
+# Editor files
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-*
+
+# ============================================================================
+# SOFTWARE EXECUTABLES AND DEPENDENCIES
+# ============================================================================
+
+# PLINK executables (download separately)
+plink.exe
+plink
+plink2.exe
+plink2
+
+# Other  software
+
+*.exe
+*.app
+# Downloaded reference files (large, should be documented instead)
+1000G_*
+hapmap_*
+
+# ============================================================================
+# LOGS AND TEMPORARY FILES
+# ============================================================================
+# Log files
+*.log
+error.log
+debug.log
+nohup.out
+slurm-*.out
+
+# Temporary files
+temp/
+tmp/
+*.temp
+*.tmp
+
+# Lock files
+*.lock
+# ============================================================================
+# DOCUMENTATION ARTIFACTS
+# ============================================================================
+
+# Generated documentation
+*.pdf
+*.docx
+*.html
+
+# But keep markdown documentation
+!*.md
+!README.md
+!DOCUMENTATION.md
+!CHANGELOG.md
+!LICENSE.md
+
+# LaTeX artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+*.out
